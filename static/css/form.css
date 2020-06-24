@@ -1,0 +1,74 @@
+html, body {
+    height: 100%;
+}
+
+#main_form {
+  width: 86%;
+  height: 100%;
+  margin: 0 auto;
+  margin-top: 100px;
+
+}
+
+.header {
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 50px;
+  font-size: 30px;
+}
+
+
+#form_area {
+  width: 60%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+
+#form_input {
+  width: 100%;
+  height: 40%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  text-align: center;
+  font-size: 30px;
+}
+
+#form_submit {
+   
+  height: 5%;
+  width: 40%;
+  background-color: #4e61ff;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: center;
+  display: table;
+  margin: 0 auto;
+  margin-top: 30px;
+  font-size: 20px;
+  
+  
+}
+
+
+
+table {
+  border-collapse: collapse;
+  width: 90%;
+  margin: auto;
+  font-size: 20px;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(odd){
+  background-color: #4e61ff;
+  color: white;
+}
+
+
+

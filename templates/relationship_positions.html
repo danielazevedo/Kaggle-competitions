@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+
+    <head>
+        <link rel="stylesheet" type="text/css" href={{ url_for('static', filename='css/positions_graphs.css') }}>
+        <title>ML Projects</title>
+    </head>
+
+    <body>
+    	<div class="header">
+		  <h1>Machine Learning Projects</h1>
+		  <h3>by Daniel Azevedo</h3>
+		</div>
+
+        <div id='main'>
+            <div id='left_div'>
+
+                <h3>Relationship between Main Positions</h3>
+                <img width="1000" src="/static/positions_1.png">
+                
+                
+                
+            </div>
+
+            <div id='right_div'>
+                <h3>Relationship between All Positions</h3>
+                <img width="1000" src="/static/positions_2.png">
+                
+            </div>
+
+        </div>
+
+        <form method="GET" action="/">
+            <input id="form_submit" type="submit" value="Return Home">
+        </form>
+        
+        
+    </body>
+</html>

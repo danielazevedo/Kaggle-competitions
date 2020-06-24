@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+
+    <head>
+        <link rel="stylesheet" type="text/css" href={{ url_for('static', filename='css/best_team.css') }}>
+        <title>ML Projects</title>
+    </head>
+
+    <body>
+    	<div class="header">
+		  <h1>Machine Learning Projects</h1>
+		  <h3>by Daniel Azevedo</h3>
+		</div>
+
+        <div id='main'>
+            <div id='left_div'>
+
+                <h3>Settings</h3>
+                <form class='box', method="POST" action="/get_team">
+
+                  <label>Tactic:</label>
+                  <select name="tactic" method="GET" >
+                    {% for t in formations %}
+                        <option value="{{t}}" SELECTED>{{t}}</option>"
+                    {% endfor %}
+                  </select>
+
+                <br><br>
+                  <label>Nation:</label>
+                  <select name="nation" method="GET">
+                    {% for n in nations %}
+                        <option value="{{n}}" SELECTED>{{n}}</option>"
+                    {% endfor %}
+                </select>
+
+                  <br>
+                  <input id="form_submit" type="submit">
+
+                </form>
+                
+                
+            </div>
+
+            <div id='right_div'>
+                <h3>Best Team</h3>
+                 {% for bt in best_team %}
+                        <p>{{bt}}</p>
+                {% endfor %}
+                
+            </div>
+
+        </div>
+
+        <form method="GET" action="/">
+            <input id="form_submit" type="submit" value="Return Home">
+        </form>
+        
+        
+    </body>
+</html>

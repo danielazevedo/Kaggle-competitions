@@ -1,0 +1,174 @@
+
+.hvr-grow {
+    display: inline-block;
+    vertical-align: middle;
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    transition-duration: 0.3s;
+    transition-property: transform;
+}
+
+.hvr-grow:hover,
+.hvr-grow:focus,
+.hvr-grow:active {
+    transform: scale(1.1);
+    background-color: #0000ff;
+    text: "Reply!";
+}
+
+
+
+.header {
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 50px;
+  font-size: 30px;
+}
+
+
+.btn_area {
+	padding: 2%;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	width: 500px;
+	height: 250px;
+}
+
+
+.my_btn {
+	background-color: #4e61ff;
+	color: white;
+	text-align: center;
+	font-size: 30px;
+	width: 100%;
+	height: 100%;
+	border-radius: 15px;
+	cursor: pointer;
+
+}
+#main {
+	width: 86%;
+  	height: 100%;
+  	margin: 0 auto;
+  	margin-top: 100px;
+
+}
+
+
+#btn_menu {
+	background-color: #4e61ff;
+	color: white;
+	text-align: center;
+	font-size: 30px;
+	width: 30%;
+	height: 90px;
+	border-radius: 15px;
+	cursor: pointer;
+	margin: 0 auto;
+	margin-top: 50px;
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
+}
+
+
+
+#art_spinnerBtn:hover:before {
+  content:"The goal of the Article Spinner is to replace some random words by synonyms. The goal is to change the text but maintaining the same idea";
+}
+
+#art_spinnerBtn:before {
+  content: "Article Spinner";
+}
+
+
+#cyper_decrBtn:hover:before {
+	content: "In this project a Subsitution cipher is decrypted using a Evolutionary Algorithm. A Bi-Gram is used as the Language Model";
+}
+
+#cyper_decrBtn:before {
+	content: "Cipher Decryption";
+}
+
+
+
+#crd_fraudBtn:hover:before {
+	content: "Based on an anonymized dataset of creadit card transactions, a Machine Leaning model is trained to detect fraudulent transactions";
+}
+
+#crd_fraudBtn:before {
+	content: "Credit Card Fraud";
+}
+
+
+
+#digit_recgBtn:hover:before {
+	content: "In this project, a CNN is used to identify digits from images";
+}
+
+#digit_recgBtn:before {
+	content: "Digit Recognizer";
+}
+
+
+
+#fifa20Btn:hover:before {
+	content: "Using FIFA dataset, different analysis are performed. These include determination of the best team from a specific nationality, best young players, prediction of best position for a specific player, etc";
+}
+
+#fifa20Btn:before {
+	content: "Fifa 20 Analysis";
+}
+
+
+
+#fifa18-momBtn:hover:before {
+	content: "A model is developed for predicting the Man of the Match of FIFA 2018 World Cup, based on the game's statistics";
+}
+
+#fifa18-momBtn:before {
+	content: "Man of the Match (FIFA 18)";
+}
+
+
+
+#smsBtn:hover:before {
+	content: "A Machine Learning model is trained to predict if a message (sms) is spam or not. Different word representations are tested as well as different Machine Learning models";
+}
+
+#smsBtn:before {
+	content: "SMS Spam Detector";
+}
+
+
+
+#sent_anBtn:hover:before {
+	content: "This project consists on the creation of a Machine Learning model capable of detecting the sentimental connotation associated with a specific review";
+}
+
+#sent_anBtn:before {
+	content: "Sentiment Analysis";
+}
+
+
+
+#bike_shaBtn:hover:before {
+	content: "In this project, EDA was performed with the goal of extracting useful information from the data in order to implement a Machine Learning model capable of predicting the number of bike rentals needed for a given days";
+}
+
+#bike_shaBtn:before {
+	content: "London Bike Sharing";
+}
+
+
+
+
+
+
+
+
+
+

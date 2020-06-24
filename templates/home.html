@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+    <head>
+    	<link rel="stylesheet" type="text/css" href={{ url_for('static', filename='css/style.css') }}>
+        <title>ML Projects</title>
+    </head>
+    <body>
+    	<div class="header">
+		  <h1>Machine Learning Projects</h1>
+		  <h3>by Daniel Azevedo</h3>
+		</div>
+	   
+       <div id="main">
+
+            <form class="btn_area" action="/redirect_text_form" method="post">
+                <button id="art_spinnerBtn" class="my_btn hvr-grow" type="submit"></button>
+            </form>
+
+            <form class="btn_area" action="/redirect_cipher_form" method="post">
+                <button class="my_btn hvr-grow" id="cyper_decrBtn" type="submit"></button>
+            </form>
+
+            <form class="btn_area" action="/crd_fraud" method="post">
+                <button class="my_btn hvr-grow" id="crd_fraudBtn" type="submit"></button>
+            </form>
+
+            <form class="btn_area" action="/digit_recog" method="post">
+                <button class="my_btn hvr-grow" id="digit_recgBtn" type="submit"></button>
+            </form>
+
+            <form class="btn_area" action="/fifa20" method="post">
+                <button class="my_btn hvr-grow" id="fifa20Btn" type="submit"></button>
+            </form>
+
+
+            <a class="btn_area"  href="https://github.com/danielazevedo/Kaggle-competitions/blob/master/FIFA18_ManOfTheMatch/FIFA18_ManOfTheMatch.ipynb">
+               <button id="fifa18-momBtn" class="my_btn hvr-grow" type="submit"></button>
+            </a>
+
+            <form class="btn_area" action="/sms" method="post">
+                <button class="my_btn hvr-grow" id="smsBtn" type="submit"></button>
+            </form>
+
+            <form class="btn_area" action="/sentiment" method="post">
+                <button class="my_btn hvr-grow" id="sent_anBtn" type="submit"></button>
+            </form>
+
+            <a class="btn_area"  href="https://github.com/danielazevedo/Kaggle-competitions/blob/master/London%20bike%20sharing/EDA_bikes.ipynb">
+               <button class="my_btn hvr-grow" id="bike_shaBtn" type="submit"></button>
+            </a>
+
+       </div>	
+        
+
+
+
+    </body>
+</html>

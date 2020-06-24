@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+
+    <head>
+        <link rel="stylesheet" type="text/css" href={{ url_for('static', filename='css/cc.css') }}>
+        <title>ML Projects</title>
+    </head>
+
+    <body>
+    	<div class="header">
+		  <h1>Machine Learning Projects</h1>
+		  <h3>by Daniel Azevedo</h3>
+		</div>
+
+ 		
+
+		 <div id='input'>
+		 	<h1>Data Input Sample:</h1>
+		 	
+		 	{{df}}
+
+		 	
+		 	<div id="list">
+				<h1>Preprocessing Steps Performed:</h1>
+			 	<ul>
+				  <li>Class balancing</li>
+				  <li>Data Normalization (RobustScaler)</li>
+
+				  <li>Feature Selection</li>
+					  <ul>
+					  <li>Correlation</li>
+					  <li>Statistical Test</li>
+					</ul>  
+				</ul>
+			</div>  
+
+		 </div>
+
+
+        <div id='main'>
+        	<h1>Models for Detencting Fraud:</h1>
+
+            <div id='middle_div'>
+                <h3>SVM</h3>
+                {{ results }}
+            </div>    
+
+        </div>
+        <div>
+
+            <form method="GET" action="/">
+                <input id="form_submit" type="submit" value="Return Home">
+            </form>
+
+        </div>
+        
+    </body>
+</html>

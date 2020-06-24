@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+
+    <head>
+        <link rel="stylesheet" type="text/css" href={{ url_for('static', filename='css/render_text.css') }}>
+        <title>ML Projects</title>
+    </head>
+
+    <body>
+    	<div class="header">
+		  <h1>Machine Learning Projects</h1>
+		  <h3>by Daniel Azevedo</h3>
+		</div>
+
+        <div id='main'>
+            <div id='left_div'>
+                <h3>Original Text</h3>
+                <form id="form_area" method="POST" action="/sms_prediction">
+                    <input name="text" type="text" id="form_input" placeholder="Type you text here...">
+                 <input id="form_submit" type="submit">
+
+            </form>
+                {{original_message}}
+            </div>
+
+            <div id='right_div'>
+                <h3>Spam Detector</h3>
+
+                {{spam_message}}
+            </div>    
+
+        </div>
+        <div id="submit_btns">
+            <form method="GET" action="/">
+                <input id="form_submit" type="submit" value="Return Home">
+            </form>
+
+            </div>
+        
+    </body>
+</html>

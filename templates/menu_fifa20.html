@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+    <head>
+    	<link rel="stylesheet" type="text/css" href={{ url_for('static', filename='css/style.css') }}>
+        <title>ML Projects</title>
+    </head>
+    <body>
+    	<div class="header">
+		  <h1>Machine Learning Projects</h1>
+		  <h3>by Daniel Azevedo</h3>
+		</div>
+	   
+       <div id="main">
+
+            <form  action="/best_team" method="post">
+                <button id="btn_menu" class="my_btn hvr-grow" type="submit">Best Squad Per Nationality</button>
+            </form>
+
+
+            <form  action="/wonderkids" method="post">
+                <button id="btn_menu" class="my_btn hvr-grow" type="submit">Most Promising Players</button>
+            </form>
+
+            <form  action="/positions" method="post">
+                <button id="btn_menu" class="my_btn hvr-grow" type="submit">Relationship between different Players Positions</button>
+            </form>
+
+            <form method="post">
+                <button id="btn_menu" class="my_btn hvr-grow" type="submit">More on the Jupyter Notebook...</button>
+            </form>
+
+
+       </div>	
+        
+
+
+
+    </body>
+</html>

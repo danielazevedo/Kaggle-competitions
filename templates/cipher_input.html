@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href={{ url_for('static', filename='css/form.css') }}>
+        <title>ML Projects</title>
+    </head>
+    <body>
+    	<div class="header">
+		  <h1>Machine Learning Projects</h1>
+		  <h3>by Daniel Azevedo</h3>
+		</div>
+
+        <div style="margin-top: 150px;">
+
+            <h2 style="text-align: center;">Randon Cipher Generated</h2>
+            {{tt}}
+        </div>
+
+        <div id='main_form'>
+        <form id="form_area" method="POST" action="/cyper_decr">
+             <input name="text" type="text" id="form_input" placeholder="Type you text here...">
+            <h2 style="text-align: center;">NOTE: The longer the text, the higher the probability of decrypting it</h2>
+            
+             <input id="form_submit" type="submit">
+
+        </div>
+        </form>
+
+        
+    </body>
+</html>
