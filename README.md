@@ -5,3 +5,5 @@ Personal implementations of Machine Learning models regarding some Kaggle Compet
 Screenshot of the generic Interface:
 
 ![alt text](static/ML_home.png)
+
+Check demo at static/demo.mov!
