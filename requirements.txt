@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 Flask
 Flask-Compress
 Flask-Cors
