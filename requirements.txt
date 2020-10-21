@@ -14,7 +14,7 @@ scipy==1.4.1
 seaborn==0.10.0
 tables==3.6.1
 tabulate==0.8.3
-tensorflow==2.0.0
+tensorflow==2.0.3
 Theano==1.0.4
 tqdm==4.41.1
 xgboost==0.90
